@@ -68,3 +68,42 @@ body{
 	font-weight: 400;
 	letter-spacing:17.5px;
 }
+
+/* Mobile Setting */
+
+@media only screen and (max-width: 500px) {
+	body{
+		padding: 10px;
+	}
+
+	.text-box{
+		position: absolute;
+		top: 45%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+
+	.header-title{
+		color: white;
+		text-transform: uppercase;
+	}
+
+	.heading-primary-main{
+		display: block;
+		font-size: 37px;
+		font-weight: 400;
+		letter-spacing: 20px;
+		position: relative;
+		left: 9.6px;
+		text-align: center !important;
+	}
+
+	.heading-primary-sub{
+		text-align: center;
+		display: block;
+		font-size: 20px;
+		font-weight: bolder;
+		font-weight: 400;
+		letter-spacing:12px;
+	}
+}
