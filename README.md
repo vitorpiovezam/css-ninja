@@ -10,6 +10,6 @@ Only a web browser :)
 
 ## Authors
 
-* **Vitor Gonçalves Piovezam** - *I* - [PurpleBooth](https://github.com/vitorpiovezam
+* **Vitor Gonçalves Piovezam** - https://github.com/vitorpiovezam
 
 https://www.udemy.com/advanced-css-and-sass/
