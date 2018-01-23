@@ -69,12 +69,19 @@ body{
 	letter-spacing:17.5px;
 }
 
-/* Mobile Setting */
 
-@media only screen and (max-width: 500px) {
+
+
+
+
+
+/* Mobile Setting Portrait */
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
 	body{
 		padding: 10px;
 	}
+
 
 	.text-box{
 		position: absolute;
@@ -106,4 +113,61 @@ body{
 		font-weight: 400;
 		letter-spacing:12px;
 	}
+}
+
+
+
+
+
+
+
+
+/* Mobile Assets Landscape */
+@media (max-width: 820px) and (max-height:470px ) and (orientation: landscape) {
+
+body{
+		padding: 12px;
+	}
+
+.logo-box{
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+
+.logo{
+	height: 20px;
+}
+
+.text-box{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.header-title{
+	color: white;
+	text-transform: uppercase;
+}
+
+.heading-primary-main{
+	display: block;
+	font-size: 45px;
+	font-weight: 400;
+	position: relative;
+	right: 10px;
+	letter-spacing: 35px;
+}
+
+.heading-primary-sub{
+	display: block;
+	position: relative;
+	right: 10px;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing:15.5px;
+}
+
+
 }
