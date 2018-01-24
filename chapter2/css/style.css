@@ -7,6 +7,9 @@ Dark green: #28b485
 
 */
 
+
+/* Core CSS */
+
 *{
 	margin: 0;
 	padding: 0;
@@ -56,17 +59,21 @@ body{
 }
 
 .heading-primary-main{
+	position: relative;
 	display: block;
 	font-size: 60px;
 	font-weight: 400;
 	letter-spacing: 35px;
+	animation: moveInLeft 3s;
 }
 
 .heading-primary-sub{
+	position: relative;
 	display: block;
 	font-size: 20px;
 	font-weight: 400;
 	letter-spacing:17.5px;
+	animation: moveInRight 7s;
 }
 
 
@@ -96,6 +103,7 @@ body{
 	}
 
 	.heading-primary-main{
+		position: relative;
 		display: block;
 		font-size: 37px;
 		font-weight: 400;
@@ -103,17 +111,22 @@ body{
 		position: relative;
 		left: 9.6px;
 		text-align: center !important;
+		animation: moveInLeft 4s;
 	}
 
 	.heading-primary-sub{
+		position: relative;
 		text-align: center;
 		display: block;
 		font-size: 20px;
 		font-weight: bolder;
 		font-weight: 400;
 		letter-spacing:12px;
+		animation: moveInRight 4s;
 	}
 }
+
+
 
 
 
@@ -171,3 +184,16 @@ body{
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

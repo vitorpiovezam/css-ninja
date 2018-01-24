@@ -1,0 +1,29 @@
+/* CSS Animations */
+
+@keyframes moveInLeft {
+	0%{	
+		opacity: 0;
+		right: 50px;
+	}
+
+	20%{
+		right:-50px;
+	}
+
+	100%{
+		opacity: 1;
+		right: 0px;
+	}
+}
+
+@keyframes moveInRight {
+	0%{	
+		opacity: 0;
+		left: 300px;
+	}
+
+	100%{
+		opacity: 1;
+		left: 0px;
+	}
+}
