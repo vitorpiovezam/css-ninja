@@ -51,6 +51,7 @@ body{
 	top: 45%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+	text-align: center;
 }
 
 .header-title{
@@ -74,8 +75,24 @@ body{
 	font-weight: 400;
 	letter-spacing:17.5px;
 	animation: moveInRight 7s;
+	margin-bottom: 50px;
 }
 
+.btn{
+
+}
+
+
+.btn-white{
+	background-color: white;
+	padding: 19px;
+	border-radius: 100px;
+	text-decoration: none;
+	color: black;
+	position: relative;
+	display: inline-block;
+	box-shadow: 30px;
+}
 
 
 

@@ -6,8 +6,8 @@
 		right: 50px;
 	}
 
-	20%{
-		right:-50px;
+	45%{
+		right:-30px;
 	}
 
 	100%{
@@ -26,4 +26,34 @@
 		opacity: 1;
 		left: 0px;
 	}
+}
+
+.btn{
+	box-shadow: 0px 0px 0px;
+	transition: 0.4s all;
+}
+.btn:link,
+.btn:visited {
+	text-transform: uppercase;
+}
+
+
+.btn:hover{
+
+	/*
+	transform: translateY(-10px);
+	box-shadow: 0px 8px 30px;
+	transition: 1s all;
+	*/
+	transform: scale(1.11);
+}
+.btn:active {
+	transform: translateY(-3px) !important;
+	transition: 0.3s all;
+
+}
+
+.btn:visited {
+	transform: translateY(0px) !important;
+	transition: 0.3s all;
 }
